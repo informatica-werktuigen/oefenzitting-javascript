@@ -59,11 +59,9 @@ Video-playlist ter voorbereiding van deze oefenzitting:
 Het is mogelijk HTML, CSS en JavaScript te schrijven met elke mogelijke text editor, zelfs met kladblok.
 Het is uiteraard een goed idee gebruik te maken van een editor met minstens syntax highlighting.
 
-Op de Linux-machines in de Software labo's kan je gebruik maken van het programma **Atom**.
+Op de Linux-machines in de Software labo's kan je gebruik maken van verschillende geïnstalleerde editors zoals **Visual Studio Code** of **Atom**.
 
-Indien je werkt op je eigen machine kan je gebruik maken van de goede, gratis editor [Visual Studio Code](https://code.visualstudio.com/).
-
-Indien je eigen machine op Linux draait kan je eventueel ook zelf [Atom](https://atom.io/) installeren.
+Als je verkiest op je eigen machine te werken, dan kan je deze editors downloaden en installeren via deze links: [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/).
 
 Andere editors zijn uiteraard ook toegestaan.
 
@@ -97,8 +95,8 @@ Voer onderstaande opdrachten uit met behulp van de Developer tools. Ververs indi
 
 #### Opdrachten
 
-* Verwijder met behulp van de *Inspector* de Reset-knop op de pagina
-* Open de console. Voer deze functie uit: `update_board(my_board, 0, 1, 2)`. Observeer wat er gebeurt
+* Verwijder met behulp van de *Inspector* de Reset-knop op de pagina.
+* Open de console. Voer deze functie uit: `update_board(my_board, 0, 1, 2)`. Observeer wat er gebeurt.
 * Verander de waarden in `update_board` en probeer op die manier een X te plaatsen in het middelste vakje. Hint: met de <kbd>&#8593;</kbd>-toets kan je het vorig ingevoerde commando terug ophalen.
 * Zoek en open het bestand  `code.js` in de *Debugger*. Plaats een breakpoint in de binnenste for-loop van de functie `generate_board_html` door op de nummer van die regel te klikken.  Klik vervolgens op een vakje van het spelbord. Inspecteer de waarden van de variabele `table_inner_html` in de rechtse kolom van de debugger (onder *scopes*). 
 * Druk op de Run-pijl bovenaan om de code verder uit te voeren tot het volgende breakpoint. Observeer hoe de waarden van `table_inner_html` en `row_html` evolueren na elke iteratie van de lus.
